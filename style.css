@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400%  400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+
+
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+nav a{
+    font-family: 'Bangers';
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+.navbar{
+    background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    height: 80px;
+}
+
+.container{
+    /* border:2px solid black; */
+    margin:50px;
+    text-align: center;
+    height: 700px;
+}
+
+input:checked + table td{
+    text-decoration: line-through!important;
+}
+
+#checkbox3{
+    text-decoration: line-through !important;
+}
